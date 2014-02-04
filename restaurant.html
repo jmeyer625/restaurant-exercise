@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Restaurant JS20</title>
+	<link rel="stylesheet" href="restaurant.css">
+</head>
+<body>
+	<div class="buttons">
+		<button id="vegan-toggle">Vegan</button>
+		<button id="gluten-toggle">Gluten Free</button>
+		<button id="citrus-toggle">Citrus Free</button>
+	</div>
+	<div id="main-container">
+		<div id="menu">
+		</div>
+	</div>	
+	<div id="current-order">
+		<h1>Your Current Order</h1>
+		<div id="order-clone">
+			<p class="item-name">Item Name</p>
+			<p class="price">Price</p>
+			<button class="delete-item">Delete</button>
+		</div>
+		<div class="summary">
+			<p>Total:</p><p id="total-price"></p>
+		</div>
+	</div>
+
+
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="restaurantObjects.js"></script>
+</body>
+</html>
